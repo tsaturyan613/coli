@@ -1,0 +1,355 @@
+body{
+    overflow-x: hidden;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+span{
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+h5{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    font-family: 'Open Sans', sans-serif;
+}
+.span{
+    font-family: 'Open Sans', sans-serif;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-left: 0;
+    align-items: center;
+    
+}
+.navigation>li>a{
+    text-decoration: none;
+    color: #545f7e;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.navigation>li>a:hover{
+    color: orangered;
+    transition: 0.3s;
+}
+.navigation>li{
+    list-style-type: none;
+}
+.but{
+    border-radius: 90px !important;
+    padding: 5px 0  !important;  
+}
+.bt{
+    background-color: #387DFF !important;
+}
+.flex{
+    max-width: 1306px;
+    height: 114.875px;
+    align-items: center;
+    display: flex !important;
+    justify-content: space-between !important;
+    
+}
+ 
+ .bord{
+     border: 1px solid #E5E5E6;
+ }
+ .pos1{
+    position: absolute;
+    top: 16px; right: -75px;
+    width: 35px !important;
+
+ }
+ .pos2{
+    position: absolute;
+    top: 16px; right: -75px;
+    width: 35px !important;
+
+
+ }
+ .nv{
+    margin-left:120px !important;
+}
+.registr{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.registr:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+li>.dropdown>button{
+    padding: 0 !important;
+}
+.dropdown-menu>li{
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+.dpd:hover{
+    color: orangered !important;
+    transition: 0.3s !important;
+}
+.dpd{
+    color: #545f7e !important;
+    font-family: 'Open Sans', sans-serif;
+}
+.dropdown-menu>li>a{
+    text-decoration: none;
+}
+.dropdown-menu>li>a:hover{
+    color: orangered !important;
+    transition: 0.3s !important;
+}
+
+
+
+
+
+/****************************************************MEDIA********************************************************/
+
+@media only screen and (max-width: 1210px) {
+    .nv{
+        margin-left:90px !important;
+    }
+    .navigation>li>a{
+        padding: 10px 8px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .nv{
+        margin-left:0 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .navigation{
+        display: block !important;
+        text-align: center;
+        margin-bottom: 5px;
+        padding-left: 0;
+    }
+    
+    .pos1{
+        top: 371px;
+        left: 315px;
+    }
+    .pos2{
+        top: 371px;
+        left: 315px;
+    }
+    .navigation>li>a{
+        text-decoration: none;
+        color: #4F8CFF;
+        font-size: 18px;
+    }
+    .navigation>li{
+        list-style-type: none;
+        margin-bottom: 10px;
+
+    }
+    .dpd{
+        text-decoration: none;
+        color: #4F8CFF !important;
+        font-size: 18px;
+        display: none !important;
+    }
+    .dm{
+        display: block !important;
+        position: relative !important;
+        border: none !important;
+        width: 100% !important;
+        margin-top: 0 !important;
+        text-align: center !important;
+        padding: 0 !important;
+    }
+    .kap{
+        display: none;
+    }
+    .karciq{
+        margin-bottom: 0 !important;
+    }
+    .drop{
+        margin-bottom: 0 !important;
+    }
+    .dropdown-menu>li{
+        margin-top: 2px !important;
+        margin-bottom: 15px !important;
+    }
+    .dropdown-menu>li>a{
+        text-decoration: none;
+        color: #4F8CFF;
+        font-size: 18px;
+    }
+    
+    
+  }
+  @media only screen and (max-width: 780px) {
+   
+    .pos{
+        top: 235px;
+        left: -400px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 991px) {
+    .flex{
+        height: 114.8px !important;
+    }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .container{
+            max-width: 650px !important;
+        }
+        body{
+            overflow-x: hidden !important;
+        }
+        .pos1{
+            top: 371px;
+            left: 281px;
+        }
+        .pos2{
+            top: 371px;
+            left: 281px;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        
+        .pos1{
+            top: 371px;
+            left: 243px;
+        }
+        .pos2{
+            top: 371px;
+            left: 243px;
+        }
+      }
+      @media only screen and (max-width: 425px) {
+        body{
+            overflow-x: hidden !important;
+        }
+        .pos1{
+            top: 371px;
+            left: 172px;
+        }
+        .pos2{
+            top: 371px;
+            left: 172px;
+        }
+      }
+      @media only screen and (max-width: 398px) {
+        .dropdown-menu>li>a {
+            font-size: 17px;
+        }
+        .navigation>li>a {
+            font-size: 17px;
+        } 
+        .pos1{
+            top: 355px;
+            left: 150px;
+        }
+        .pos2{
+            top: 355px;
+            left: 150px;
+        } 
+      }
+      @media only screen and (max-width: 376px) {
+        body{
+            overflow-x: hidden !important;
+        }
+      }
+      @media only screen and (max-width: 320px) {
+        body{
+            overflow-x: hidden !important;
+        }
+        .pos1{
+            top: 355px;
+            left: 128px;
+        }
+        .pos2{
+            top: 355px;
+            left: 128px;
+        }
+      }
+      @media only screen and (max-width: 382px) {
+        .dm{
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+      }
+      @media only screen and (max-width: 338px) {
+        .navbar{
+            padding: 0 !important;
+        }
+      }
+      
+
+ 
+
+  .pulsingButton {
+    width: 150px;
+    text-align: center;
+    white-space: nowrap;
+    display: block;
+    /* margin: 50px auto; */
+    padding: 9px 10px;
+    box-shadow: 0 0 0 0 #4585FF;
+    border-radius: 90px;
+    background-color: #4585FF;
+    -webkit-animation: pulsing 3s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulsing 3s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulsing 3s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulsing 3s infinite cubic-bezier(0.66, 0, 0, 1);
+    font-size: 18px;
+    font-weight: normal;
+    font-family: sans-serif;
+    text-decoration: none !important;
+    color: #ffffff;
+    transition: all 300ms ease-in-out;
+    z-index: 100 !important;
+  }
+  
+  
+  /* Comment-out to have the button continue to pulse on mouseover */
+  
+  a.pulsingButton:hover {
+    color: #ffffff;
+  }
+  
+  
+  /* Animation */
+  
+  @-webkit-keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 16px rgba(39, 42, 233, 0);
+    }
+  }
+  
+  @-moz-keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 16px rgba(232, 76, 61, 0);
+    }
+  }
+  
+  @-ms-keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 16px rgba(232, 76, 61, 0);
+    }
+  }
+  
+  @keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 16px rgba(232, 76, 61, 0);
+    }
+  }
+   

@@ -1,0 +1,252 @@
+body{
+    overflow-x: hidden;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+span{
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+h5{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+  /******************************************************************************all***********************************************************/
+
+  .all{
+    width: 100%;
+    height: 100%;
+    background: #F5F9FF 0% 0% no-repeat padding-box;
+    padding-bottom: 60px;
+}
+ .h3{
+     text-align: center;
+     font-size: 32px;
+     color: #2D3748;
+     padding: 44px 0;
+     margin-bottom: 0  !important;
+ }
+ .page{
+     padding-top: 59px;
+     padding-bottom: 36px;
+     padding-left: 60px;
+     height: 744px !important;
+     max-width: 824px;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     box-shadow: 0px 3px 6px #70707029;
+     margin: 0 auto;
+     padding-right: 50px;
+ }
+ .subtitle{
+     font-size: 18px;
+     color: #2D3748;
+     margin-bottom: 37px;
+ }
+ .subtitle>span{
+   color: #DF1717;
+ }
+ .span{
+     
+     margin-left: 24px;
+     font-size: 16px ;
+ }
+ 
+ .page>p{
+     margin-bottom: 11px;
+ }
+ .error1{
+    display: none;
+    color: #DF1717;
+    font-size: 13px;
+    position: absolute;
+    right: 227px;
+    top: 4px;
+}
+.error2{
+    display: none;
+    color: #DF1717;
+    font-size: 13px;
+    position: absolute;
+    right: 222px;
+    top: 4px;
+}
+ .next{
+    text-align: right;
+    margin-top: 24px;
+}
+.next>button{
+    border-radius: 90px !important;
+    
+    margin-bottom: 38px;
+}
+.numbers{
+    text-align: center;
+}
+.numbers>span{
+    padding-right: 8px;
+    padding-left: 8px;
+    color: #D3D3D3;
+}
+.span1{
+    color: black !important;
+    background: #387DFF1A 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+}
+.a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 29px;
+    padding-right: 22px;
+}
+.a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.arr{
+    max-height: 25px;
+    min-height: 25px;
+    border: none !important;
+    margin-top: 10px;
+    font-size: 15px;
+    border-bottom: 3px solid #E5E5E6 !important;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0 !important;
+}
+.count1{
+    display: none;
+}
+
+.letterscount{
+    position: relative;
+}
+.count{
+    position: absolute;
+    right: 2px;
+    top: 5px;
+    font-size: 14px;
+    color: #707070;
+    opacity: 0.7;
+}
+.arr::-webkit-input-placeholder{
+    font-size: 14px;
+    color: #707070;
+    
+}
+.arr1{
+    display: none;
+}
+p>input{
+    height: 16px;
+    width: 16px;
+}
+
+
+      /*******************************************************MEDIA ALL*****************************************************/
+@media only screen and (max-width: 768px) {
+    .page{
+        max-width: 690px;
+    }
+}
+@media only screen and (max-width: 610px) {
+    .page{
+        max-width: 590px;
+        padding-left: 35px;
+        padding-right: 25px;
+    }
+    
+}
+@media only screen and (max-width: 550px) {
+    .page{
+        max-width: 490px;
+        padding-left: 35px;
+        padding-right: 7px;
+    }
+    .h3{
+        font-size: 25px !important;
+    }
+    .subtitle{
+        font-size: 16px !important;
+    }
+    .span{
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (max-width: 425px) {
+    .numbers{
+        margin-top: 0;
+    }
+    .subtitle{
+        margin-top: 35px !important ;
+    }
+    .next>button{
+        margin-bottom: 20px ;
+    }
+    .page{
+        padding-top: 5px;
+        height: 685px !important;
+        max-width: 400px;
+    }
+    .next{
+        margin-top: 28px;
+    }
+}
+@media only screen and (max-width: 833px) {
+    .error1{
+        right: 208px;
+    }
+}
+@media only screen and (max-width: 815px) {
+    .error1{
+        right: 190px;
+    }
+}
+@media only screen and (max-width: 797px) {
+    .error1{
+        right: 172px;
+    }
+}
+@media only screen and (max-width: 779px) {
+    .error1{
+        right: 154px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .error1{
+        left: 0;
+        top: 24px;
+    }
+}
+@media only screen and (max-width: 323px) {
+    .error1{
+        left: 0;
+        top: 36px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .previous>a{
+        top: -50px !important;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .next>button{
+        padding: 3px 6px;
+    }
+    .a{
+        padding-left: 28px;
+        padding-right: 20px;
+        font-size: 14px ;
+    }
+    .previous>a{
+        top: -46px !important;  
+    }
+}
